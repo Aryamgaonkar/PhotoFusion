@@ -1,0 +1,211 @@
+/* navigation */
+@keyframes navlogo{
+    from{
+        transform:translateY(-200px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes navigation{
+    from{
+        transform:translateY(-200px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+/* home */
+@keyframes slideleft{
+    from{
+        transform:translateX(-500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes slideleftpara{
+    from{
+        transform:translateX(-900px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes button{
+    from{
+        transform:translateY(400px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes img{
+    from{
+        transform:translateX(400px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes imgicon{
+    from{
+        transform:translateX(400px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+/* gallery */
+@keyframes galleryheading{
+    from{
+        transform:translateX(-900px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes galleryitem{
+    from{
+        transform:translateX(-1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes galleryitem1{
+    from{
+        transform:translateX(1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+/* about us */
+@keyframes aboutheading{
+    from{
+        transform:translateX(-900px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes aboutcontent{
+    from{
+        transform:translateX(1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes aboutcontentpara{
+    from{
+        transform:translateX(1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes aboutimg{
+    from{
+        transform:translateY(-700px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes teamimg{
+    from{
+        transform:translateX(-1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes teamimgpara{
+    from{
+        transform:translateX(1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes studioimg{
+    from{
+        transform:translateY(500px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+/* work section */
+@keyframes worktitle{
+    from{
+        transform:translateX(-900px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes workimg{
+    from{
+        transform:translateX(1500px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes workheading{
+    from{
+        transform:translateY(-900px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+/* contact */
+@keyframes contacttitle{
+    from{
+        transform:translateX(-900px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes contactmap{
+    from{
+        transform:translateY(-1000px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes contactform{
+    from{
+        transform:translateY(900px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes submitbutton{
+    from{
+        transform:translateY(400px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes footer{
+    from{
+        transform:translateY(400px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}

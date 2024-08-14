@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFusion</title>
+    <link rel="shortcut icon" type="image/icon" href="images/logo.jpg.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="https://kit.fontawesome.com/00f6198868.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloder">
+        
+    </div>
+
+    <nav class="navigation">
+        <div class="logo">
+            <img src="images/logo1.png" alt="PhotoFusion" class="nav-logo">
+        </div>
+        <div class="nav">
+            <ul class="nav_list">
+                <li class="nav_list_item"><a href="#home" class="nav-hover">HOME</a></li>
+                <li class="nav_list_item"><a href="gallery.html" class="nav-hover">GALLERY</a></li>
+                <li class="nav_list_item"><a href="about_us.html" class="nav-hover">ABOUT US</a></li>
+                <li class="nav_list_item"><a href="work.html" class="nav-hover">WORK</a></li>
+                <li class="nav_list_item"><a href="contact.html" class="nav-hover">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="home">
+        <div class="home-main">
+            <div class="home-content">
+                <h1 class="home-title">PhotoFusion</h1>
+                <p class="home-description">At PhotoFusion Photography, we believe in the power of a single photograph to tell a thousand stories. Specializing in weddings, portraits, landscapes, etc. Our mission is to transform fleeting moments into timeless treasures. <br> Whether it's the joy of a wedding, the innocence of a child's smile, or the breathtaking beauty of nature, our goal is to create stunning images that speak to the heart.
+                <br><br><br> Explore our gallery to see the world through our lens. From candid shots to meticulously planned compositions, each photograph reflects our passion for excellence and our commitment to quality.</p>
+                <br><br>
+                <button class="home-gallery-button">Gallery</button>
+            </div>
+            <div class="home-imgsec">
+                <div class="home-img"></div>
+                <div class="home-icon">
+                    <ul class="home-icon-container">
+                        <li class="home-icon-list"><a href="#" class="icon-hover"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="home-icon-list"><a href="#" class="icon-hover"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="home-icon-list"><a href="#" class="icon-hover"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="home-icon-list"><a href="#" class="icon-hover"><i class="fa-regular fa-at"></i></a></li>
+                        <li class="home-icon-list"><a href="#" class="icon-hover"><i class="fa-solid fa-phone"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+//loader JAVA script
+<script>
+    var loader=document.getElementById("preloder");
+    window.addEventListener("load",function(){
+        loader.style.display="none"; 
+    })
+</script>
+
+</html>
